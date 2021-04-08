@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1030"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6590E267233CF6E1002A69C8"
-               BuildableName = "SimpleStateMachineWatch.framework"
-               BlueprintName = "SimpleStateMachineWatch"
+               BlueprintIdentifier = "652869B2261F8FFF0018453B"
+               BuildableName = "SimpleStateMachineMac.framework"
+               BlueprintName = "SimpleStateMachineMac"
                ReferencedContainer = "container:SimpleStateMachine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6590E267233CF6E1002A69C8"
-            BuildableName = "SimpleStateMachineWatch.framework"
-            BlueprintName = "SimpleStateMachineWatch"
-            ReferencedContainer = "container:SimpleStateMachine.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -59,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6590E267233CF6E1002A69C8"
-            BuildableName = "SimpleStateMachineWatch.framework"
-            BlueprintName = "SimpleStateMachineWatch"
+            BlueprintIdentifier = "652869B2261F8FFF0018453B"
+            BuildableName = "SimpleStateMachineMac.framework"
+            BlueprintName = "SimpleStateMachineMac"
             ReferencedContainer = "container:SimpleStateMachine.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
