@@ -128,7 +128,6 @@
 		652869B6261F8FFF0018453B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652869C0261F8FFF0018453B /* SimpleStateMachineMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStateMachineMacTests.swift; sourceTree = "<group>"; };
 		652869C2261F8FFF0018453B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65446B4F251B4C4900D09884 /* SimpleStateMachine */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SimpleStateMachine; sourceTree = "<group>"; };
 		6590E268233CF6E1002A69C8 /* SimpleStateMachineWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleStateMachineWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6590E26A233CF6E1002A69C8 /* SimpleStateMachineWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleStateMachineWatch.h; sourceTree = "<group>"; };
 		6590E26B233CF6E1002A69C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,7 +169,6 @@
 		206422272124511F0042783E = {
 			isa = PBXGroup;
 			children = (
-				65446B4F251B4C4900D09884 /* SimpleStateMachine */,
 				206422332124511F0042783E /* SimpleStateMachine */,
 				2064223E2124511F0042783E /* SimpleStateMachineTests */,
 				6590E269233CF6E1002A69C8 /* SimpleStateMachineWatch */,
@@ -683,6 +681,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dsc.SimpleStateMachine;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -707,6 +706,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dsc.SimpleStateMachine;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -809,7 +809,7 @@
 		6590E26D233CF6E1002A69C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -837,7 +837,7 @@
 		6590E26E233CF6E1002A69C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
